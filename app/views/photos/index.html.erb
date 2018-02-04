@@ -4,7 +4,7 @@
   <div class="row">
     <% group.compact.reverse_each do |idea| %>
       <div class="col-md-4">
-        <%=link_to (image_tag idea.picture_url, width: '100%' , idea %>
+        <%=link_to (image_tag idea.picture_url, width: '100%' ), idea %>
         <h4><%= link_to idea.name, idea %></h4>
       </div>
     <% end %>
